@@ -7,7 +7,7 @@
 $oldPolicy = Get-ExecutionPolicy; Set-ExecutionPolicy Bypass -Scope Process -Force; & "D:/Project/Win-PostInstallation/Test.ps1"; Set-ExecutionPolicy $oldPolicy -Scope Process -Force
 
 # Script starts the process here
-Write-Host "Running script..." -ForegroundColor Green
+#Write-Host "Running script..." -ForegroundColor Green
 
 function Show-Menu {
     Clear-Host
