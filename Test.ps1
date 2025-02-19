@@ -4,7 +4,7 @@
 # Enable Execution Policy(Which temporarily allows scripts to run)
 #Set-ExecutionPolicy Bypass -Scope Process -Force
 
-$oldPolicy = Get-ExecutionPolicy; Set-ExecutionPolicy Bypass -Scope Process -Force; & "D:/Project/Win-PostInstallation/Test.ps1"; Set-ExecutionPolicy $oldPolicy -Scope Process -Force
+$oldPolicy = Get-ExecutionPolicy; Set-ExecutionPolicy Bypass -Scope Process -Force; & "https://github.com/iam-vasanth/Win-PostInstallation/releases/download/Publish/Test.ps1"; Set-ExecutionPolicy $oldPolicy -Scope Process -Force
 
 # Script starts the process here
 #Write-Host "Running script..." -ForegroundColor Green
